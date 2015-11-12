@@ -38,7 +38,7 @@ int main(){
 
 
 
- 	myReadFile.open("/home/bene/Programme/pwd/pwdtest.txt");
+ 	myReadFile.open("/""your install path""/pwdtestcap.txt");
 
  	if (myReadFile.is_open()) {
  		
@@ -59,7 +59,7 @@ int main(){
 	}
 	//reset file position by closing the file and reopening it
 	myReadFile.close();
-	in.open("/home/bene/Programme/pwd/pwdtest.txt");
+	in.open("/""your install path""/pwdtestcap.txt");
 
 
 	//get this back in if you want to know how big yout library is
